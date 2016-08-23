@@ -14,7 +14,7 @@ public class BookController {
 
 	@RequestMapping(value = "/book", method = { RequestMethod.GET })
 	public List<BookDTO> getAll() {
-		final BookDTO l1 = new BookDTO("111aaa", "El serÃ±or de los anillos", "El tokien");
+		final BookDTO l1 = new BookDTO("111aaa", "El señor de los anillos", "El tokien");
 		final BookDTO l2 = new BookDTO("111bbb", "La comunidad del anillo", "Tolkien");
 		return Arrays.asList(l1, l2);
 	}
